@@ -18,22 +18,20 @@
       </li>
       <li><a href="contato.html" target="_blank">Contato</a></li>
     </ul>
-    
-    <h1 class="center">Contatos do clube</h1>
-
+    <h1 class="center">Tem alguma dúvida?</h1>
     <div class="container mb-50">
         
         <div>
-            <h2>Tem alguma dúvida?</h2>
             <form>
                 <label for="nome">Nome:</label><br>
-                <input type="text" id="nome">
-                <br><br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+                <br>
                 <label for="email">E-mail:</label><br>
                 <input type="email" id="email">
                 <br><br>
                 <label for="assunto">Assunto:</label><br>
-               <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea>
+               <textarea name="assunto" id="assunto" cols="60" rows="12"></textarea>
                 <br><br>
                 <button>Enviar</button>
             </form>
@@ -45,7 +43,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2544352.7592110997!2d-2.4321674!3d51.
             481663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f864b976f3d%3A0x48aa38781ea565f8!2sStamford%20Bridge!5e0
             !3m2!1spt-BR!2sbr!4v1650305630273!5m2!1spt-BR!2sbr" 
-            width="400" height="250" style="border:0;" allowfullscreen="" 
+            width="500" height="350" style="border:0;" allowfullscreen="" 
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
@@ -69,5 +67,9 @@
                 Todos os direitos para: Sobral &copy
             </p>
         </footer>    
+
+
+<script src="./assets/js/script.js"></script>
+
 </body>
 </html>
